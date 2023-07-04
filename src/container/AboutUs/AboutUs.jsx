@@ -22,6 +22,27 @@ const AboutUs = () => (
         </p>
         <button type="button" className="custom-button">Learn more</button>
       </div>
+
+
+
+      <div className="app-aboutus-content-knife flex-center">
+        <img src={images.knife} alt="about-knife" />
+      </div>
+
+      <div className="app-aboutus-content-history">
+        <h1 className="headtext-cormorant">Our History</h1>
+        <img src={images.spoon} alt="spoon" className="spoon-img" />
+        <p className="p-opensans">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
+          ipsum nec ligula consectetur tristique. Vestibulum ante ipsum primis
+          in faucibus orci luctus et ultrices posuere cubilia Curae; Cras at
+          lectus massa. Integer convallis mauris id tortor efficitur, et
+          volutpat eros accumsan. Sed vitae consequat nulla.
+        </p>
+        <button type="button" className="custom-button">Learn more</button>
+      </div>
+
+
     </div>
   </div>
 );
