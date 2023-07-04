@@ -53,3 +53,23 @@
     height: 30px;
     background-color: var(--color-grey);
 }
+.app-navbar-mobile{
+    display: none;
+}
+
+.app-navbar-mobile-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-black);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s ease;
+}
