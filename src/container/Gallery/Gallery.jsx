@@ -10,7 +10,7 @@ import {
 
 import "./Gallery.css";
 
-const images = [
+const galleryImages = [
   images.gallery01,
   images.gallery02,
   images.gallery03,
@@ -44,8 +44,8 @@ const Gallery = () => {
 
       <div className="app-gallery-images">
         <div className="app-gallery-images-container" ref={scrollRef}>
-          {images.map((image, index) => (
-            
+          {galleryImages.map((image, index) => (
+
             <div
               className="app-gallery-images-card flex-center"
               key={`gallery-image-${index + 1}`}
@@ -53,6 +53,7 @@ const Gallery = () => {
               <img src={image} alt="gallery-image" />
               <BsInstagram className="gallery-image-icon" />
             </div>
+
           ))}
         </div>
         <div className="app-gallery-images-arrow">
